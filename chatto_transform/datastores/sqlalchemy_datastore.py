@@ -1,8 +1,8 @@
 import pandas
-from ..schema.schema_base import *
-from .datastore_base import DataStore
-from .odo_datastore import OdoDataStore
-from ..config import config
+from chatto_transform.schema.schema_base import *
+from chatto_transform.datastores.datastore_base import DataStore
+from chatto_transform.datastores.odo_datastore import OdoDataStore
+from chatto_transform.config import config
 
 from functools import lru_cache, partial
 

@@ -9,9 +9,9 @@ import string
 import pandas
 from sklearn.externals import joblib
 
-from ...config import config
-from ...schema.schema_base import Schema
-from ..transform_base import Transform
+from chatto_transform.config import config
+from chatto_transform.schema.schema_base import Schema
+from chatto_transform.transforms.transform_base import Transform
 
 """Library for executing transforms in parallel.
 
